@@ -1,0 +1,11 @@
+_: MBFileStub
+contentHash: sha1:f994c7b617f78a89dd9b00468683c314c3ea55f0
+createdAt: 2024-04-09 00:45:05
+metadata:
+  fileSize: 4620010428
+  object:
+    class: LightFM
+    description: <lightfm.lightfm.LightFM object at 0x7f3e89e415a0>
+    module: lightfm.lightfm
+    package: lightfm==1.17
+schemaVersion: 1

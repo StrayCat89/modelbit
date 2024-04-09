@@ -1,0 +1,9 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  mainFunction: predict_lightfm
+  mainFunctionArgs:
+    - params:Any
+  pythonVersion: '3.10'
+  systemPackages:
+    - build-essential
+schemaVersion: 2
