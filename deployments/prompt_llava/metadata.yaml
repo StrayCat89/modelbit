@@ -1,0 +1,10 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  capabilities:
+    - gpu=T4
+  mainFunction: prompt_llava
+  mainFunctionArgs:
+    - url:str
+    - prompt:str
+  pythonVersion: '3.10'
+schemaVersion: 2
