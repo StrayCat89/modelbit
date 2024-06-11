@@ -1,0 +1,10 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  mainFunction: depth_any_inference
+  mainFunctionArgs:
+    - image_url:Any
+  pythonVersion: '3.10'
+  systemPackages:
+    - git
+    - python3-opencv
+schemaVersion: 2
