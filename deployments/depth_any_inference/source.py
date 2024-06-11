@@ -10,6 +10,7 @@ import requests
 import torch
 import numpy as np
 import io
+import modelbit as mb
 import base64
 
 pixel_values = modelbit.load_value("data/pixel_values.pkl") # tensor([[[[1.2899, 1.2214, 1.2557, ..., 1.7694, 1.7694, 1.8037], [1.3070, 1.3242, 1.2899, ..., 1.7865, 1.8037, 1.7694], [1.4269, 1.3413, 1.3413, ..., 1.7865, 1.8379, 1.7523], ..., [1.3584, 1.5125, 1.5...
@@ -43,6 +44,7 @@ def depth_any_inference(image_url):
   image_bytes = io.BytesIO()
   formatted_depth.save(image_bytes, format='PNG')
   image_bytes = image_bytes.getvalue()
+  mb.log_image(image)
 
   # Encode the image bytes using base64
   base64_encoded_image = base64.b64encode(image_bytes).decode('utf-8')
