@@ -1,0 +1,8 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  mainFunction: example_doubler
+  mainFunctionArgs:
+    - half:int
+    - return:int
+  pythonVersion: '3.10'
+schemaVersion: 2
