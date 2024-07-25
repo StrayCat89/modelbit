@@ -1,0 +1,7 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  mainFunction: summarize_product_reviews
+  mainFunctionArgs:
+    - reviews:str
+  pythonVersion: '3.10'
+schemaVersion: 2

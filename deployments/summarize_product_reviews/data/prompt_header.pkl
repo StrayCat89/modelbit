@@ -1,0 +1,15 @@
+_: MBFileStub
+contentHash: sha1:9285dd037838324a0967183fcd240f228e0f4dd3
+createdAt: 2024-07-25 21:06:20+00:00
+metadata:
+  fileSize: 252
+  object:
+    class: str
+    description: |-
+      Summarize the following product reviews. The reviews are all about the same product.
+      Be as concise as possible. Your summarized review should include the most important
+      details about the product's quality.
+
+      The reviews are as follows:
+    module: builtins
+schemaVersion: 1
