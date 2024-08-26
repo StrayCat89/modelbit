@@ -1,0 +1,10 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  capabilities:
+    - gpu=A10G
+  mainFunction: llava_for_image_prompting
+  mainFunctionArgs:
+    - url:str
+    - prompt:str
+  pythonVersion: '3.10'
+schemaVersion: 2
