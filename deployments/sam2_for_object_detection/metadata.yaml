@@ -1,0 +1,14 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  capabilities:
+    - gpu=T4
+  mainFunction: sam2_for_object_detection
+  mainFunctionArgs:
+    - url:str
+    - x_coord:int
+    - y_coord:int
+  pythonVersion: '3.10'
+  systemPackages:
+    - git
+    - python3-opencv
+schemaVersion: 2
