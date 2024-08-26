@@ -1,0 +1,12 @@
+owner: michael@modelbit.com
+runtimeInfo:
+  capabilities:
+    - gpu=T4
+  mainFunction: yolo_for_object_detection
+  mainFunctionArgs:
+    - url:str
+  pythonVersion: '3.10'
+  systemPackages:
+    - git
+    - python3-opencv
+schemaVersion: 2
